@@ -1,16 +1,7 @@
 name: Java CI with Gradle
 
-on:
-  push:
-    branches:
- - main
-- Testing
-- junit4
-pull_request:
-    branches:
-    - main
-    - Testing
-    - junit4
+on: [push, pull_request]
+
 
 jobs:
   build:
