@@ -2,10 +2,12 @@ name: Java CI with Gradle
 
   push:
     branches: 
+    - main
     - Testing
     - junit4
   pull_request:
     branches: 
+    - main
     - Testing
     - junit4
     jobs:
