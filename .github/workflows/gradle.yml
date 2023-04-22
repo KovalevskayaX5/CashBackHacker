@@ -7,10 +7,7 @@ branches:
 - Testing
 - junit4
 pull request:
-branches:
-- main
-- Testing
-- junit4
+-main 
 
 jobs:
   build:
